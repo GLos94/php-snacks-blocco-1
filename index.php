@@ -1,3 +1,4 @@
+<!-- snack 1 -->
 <!-- <?php
 
 
@@ -34,8 +35,8 @@
  ?> -->
 
 
-
-<?php
+<!-- snack 2 -->
+<!-- <?php
 
       $name = $_GET['name'];
       $mail = $_GET['mail'];
@@ -64,5 +65,25 @@
 
       }
 
+?> -->
+
+
+<!-- snack 4 -->
+
+<?php
+
+  $rnds = [];
+
+  while (count($rnds) < 15) {
+
+    $rnd = rand(1, 15);
+
+    if (!in_array($rnd, $rnds)) {
+
+      $rnds[] = $rnd;
+    }
+  }
+
+var_dump($rnds);
 
 ?>
