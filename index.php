@@ -49,7 +49,7 @@
       echo "<br>";
 
 
-      $validname = strlen($name) > 3;
+      $validName = strlen($name) > 3;
       $validMail = strpos($mail, '.') !== false &&
                    strpos($mail, '@') !== false;
       $validAge = is_numeric($age);
